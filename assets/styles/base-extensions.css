@@ -1,11 +1,13 @@
 .bold {
   font-weight: 500;
 }
+
 .contacts li a.twitter:hover {
-  color: #00ACEE;
+  color: #00acee;
 }
+
 .contacts li a.instagram:hover {
-  color: #FCAF45;
+  color: #fcaf45;
 }
 
 /*
@@ -13,7 +15,7 @@
   and start overlapping content. So, this is the way I solve it
 */
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
   .avatar {
     max-width: 140px;
   }
@@ -22,7 +24,7 @@
 /*
   Google lighthouse while auditing tells us that the links should have a little more space around our links if it's mobile phone
 */
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .contacts > li {
     padding: 5px;
   }
