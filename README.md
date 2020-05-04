@@ -1,6 +1,12 @@
 # Homepage
 
-My very own personal website. Basically this is just a résumé.
+My very own personal website. Basically this is just a résumé of Geralt of Rivia.
+
+## Available at
+
+* [Zeit now](https://homepage-3xrtsozzf.now.sh/)
+* [Amazon Web Services](http://lesiv-olexandr-bucket-production.s3-website.us-east-2.amazonaws.com/)
+* [Github Pages](https://lesivolexandr.github.io/homepage/)
 
 ## Development
 
@@ -8,7 +14,7 @@ For purpose of viewing resume you can start development server. One way to do it
 
 ## Credits
 
-I'd like to say thanks to my mum, that supported me with the tasty food all the time while I was working out this. And this Binary studio for mentoring
+I'd like to say thanks to my mum, that supported me with the tasty food all the time while I was working out this and Binary Studio for mentoring
 
 ## License
 
