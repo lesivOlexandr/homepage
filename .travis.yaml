@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - 12.16.3
+script:
+  - npm install --global workbox-cli
+  - workbox generateSW workbox-config.js
+deploy:
+  - provider: s3
+    skip_cleanup: true
+    access_key_id: $ACCESS_KEY_ID
+    secret_access_key: $SECRET_ACCESS_KEY
+    bucket: "lesiv-olexandr-bucket-staging"
+    region: us-east-2
+    acl: public_read
+    on:
+      branch: develop
+  - provider: s3
+    skip_cleanup: true
+    access_key_id: $ACCESS_KEY_ID
+    secret_access_key: $SECRET_ACCESS_KEY
+    bucket: "lesiv-olexandr-bucket-production"
+    region: us-east-2
+    acl: public_read
+    on:
+      branch: master
