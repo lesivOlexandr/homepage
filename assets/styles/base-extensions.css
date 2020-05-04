@@ -1,0 +1,29 @@
+.bold {
+  font-weight: 500;
+}
+.contacts li a.twitter:hover {
+  color: #00ACEE;
+}
+.contacts li a.instagram:hover {
+  color: #FCAF45;
+}
+
+/*
+  On this breakpoint Geralt avatar don't fit into the box anymore
+  and start overlapping content. So, this is the way I solve it
+*/
+
+@media (max-width: 1200px){
+  .avatar {
+    max-width: 140px;
+  }
+}
+
+/*
+  Google lighthouse while auditing tells us that the links should have a little more space around our links if it's mobile phone
+*/
+@media (max-width: 768px){
+  .contacts > li {
+    padding: 5px;
+  }
+}
