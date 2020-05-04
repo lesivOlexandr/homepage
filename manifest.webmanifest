@@ -1,0 +1,20 @@
+{
+  "name": "Homepage",
+  "short_name": "Homepage",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Hi there😊! You're seing resume page of White Wolf. The most famous witcher ever been",
+  "lang": "en-US",
+  "theme_color": "white",
+  "icons": [
+  {
+    "src": "assets/icons/logo-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "assets/icons/logo-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}
