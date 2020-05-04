@@ -46,7 +46,7 @@
     <link rel="apple-touch-icon" href="assets/icons/logo-192x192.png">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
 
-    <base href="https://lesivolexandr.github.io/homepage/" />
+    <!-- <base href="https://lesivolexandr.github.io/homepage/" /> -->
 
     <link rel="me" href="mailto:lesivolexandr@gmail.com" />
     <link rel="me" href="tel:+380934768965" />
@@ -54,14 +54,13 @@
     <script>
       if('serviceWorker' in navigator) {
         navigator.serviceWorker
-                 .register('./sw.js')
-                 .then(function() { console.log("Service Worker Registered"); });
+                 .register('sw.js')
       }
       </script>
 
     <link rel="stylesheet" href="assets/styles/base.css">
     <link rel="stylesheet" href="assets/styles/base-extensions.css">
-    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="manifest" href="manifest.webmanifest">
   </head>
   <body>
     <header>
