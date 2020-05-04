@@ -51,8 +51,17 @@
     <link rel="me" href="mailto:lesivolexandr@gmail.com" />
     <link rel="me" href="tel:+380934768965" />
 
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+                 .register('./sw.js')
+                 .then(function() { console.log("Service Worker Registered"); });
+      }
+      </script>
+
     <link rel="stylesheet" href="assets/styles/base.css">
     <link rel="stylesheet" href="assets/styles/base-extensions.css">
+    <link rel="manifest" href="./manifest.webmanifest">
   </head>
   <body>
     <header>
